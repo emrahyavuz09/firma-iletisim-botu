@@ -13,3 +13,15 @@ Projeyi çalıştırmak için bilgisayarınızda Python yüklü olmalıdır. Ard
 
 ```bash
 pip install selenium webdriver-manager pandas openpyxl
+
+
+💻 Nasıl Çalışır?
+firma_bulucu.py dosyasını çalıştırın.
+
+Bot, Yandex üzerinden firma isimlerini aratır.
+
+Bulduğu ilk resmi web sitesine giriş yapar.
+
+Sitenin iletişim bölümüne giderek bilgileri kopyalar.
+
+İşlem bittiğinde Firma_Site_Detayli.xlsx dosyası oluşturulur.
